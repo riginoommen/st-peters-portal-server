@@ -1,7 +1,7 @@
 St Peters Marthoma Church Server Side for the Portal
 ========================================
 
-Server-side configration based upon Node JS. 
+Server-side configuration based upon Node JS. 
 
 Installation Instructions:
 --------------------------
