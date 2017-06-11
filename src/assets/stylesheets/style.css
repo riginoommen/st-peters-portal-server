@@ -1,0 +1,20 @@
+a {
+  color: #888;
+  text-decoration: none;
+}
+
+body {
+  background-color: #9c9292;
+  color: #FFF;
+  font-family: "Overpass","Open Sans",Helvetica,sans-serif;
+  left: 50%;
+  position: fixed;
+  text-align: center;
+    transform: translate(-50%, -50%);
+  top: 50%;
+}
+
+.server-logo {
+  width: 180px;
+  height: 180px;
+}
