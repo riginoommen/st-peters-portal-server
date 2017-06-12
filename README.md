@@ -8,7 +8,8 @@ Installation Instructions:
 
  1. Clone the repository: `git clone https://github.com/riginoommen/st-peters-portal-server.git`
  2. Install the dependencies: `npm install`
- *_if you are using linux install dependencies 'sudo npm install'_  
+ 
+ * _if you are using linux install dependencies 'sudo npm install'_  
 
 Usage:
 ------
