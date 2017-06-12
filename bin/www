@@ -3,7 +3,7 @@ var app = require('../app');
 var debug = require('debug')('st-peters-server:server');
 var http = require('http');
 
-// Create an HTTPS service identical to the HTTP service.
 var server = http.createServer(app).listen(5000);
+console.log("Server running at port 5000");
 
 app.io.attach(server);
