@@ -7,19 +7,21 @@
   },
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "async": "^2.4.1",
-    "body-parser": "~1.17.1",
+    "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
     "ejs": "~2.5.6",
-    "express": "~4.15.2",
+    "express": "~4.16.0",
     "glob": "^7.1.2",
     "https": "^1.0.0",
     "moment": "^2.18.1",
-    "morgan": "~1.8.1",
+    "morgan": "~1.9.0",
     "mysql": "^2.13.0",
     "mysql-events": "0.0.11",
     "nodemailer": "^4.0.1",
@@ -27,6 +29,8 @@
     "pg-escape": "^0.2.0",
     "request": "^2.81.0",
     "serve-favicon": "~2.4.2",
-    "socket.io": "^2.0.2"
-  }
+    "socket.io": "^2.0.2",
+    "snyk": "^1.52.0"
+  },
+  "snyk": true
 }
