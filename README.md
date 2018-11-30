@@ -1,3 +1,5 @@
+[![Build Status](https://semaphoreci.com/api/v1/riginoommen/st-peters-portal-server/branches/master/badge.svg)](https://semaphoreci.com/riginoommen/st-peters-portal-server)
+
 St Peters Marthoma Church Server Side for the Portal
 ========================================
 
